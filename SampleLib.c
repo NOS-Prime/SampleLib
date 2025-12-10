@@ -16,6 +16,12 @@ int accumulator = 1;
 while( pow > 0 ) { 
 accumulator *= value; 
 pow--; 
-} 
+}; 
 return accumulator; 
 } 
+void permutation(int *a, int *b){
+      int  c=0;
+        c=*a;
+       *a=*b;
+       *b=c;
+    }
